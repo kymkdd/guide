@@ -1,2 +1,2 @@
-# guide
-gitbook thingy
+# gif stands for great image format
+
