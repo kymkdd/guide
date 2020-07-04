@@ -4,5 +4,5 @@
 
 ## anatomy
 
-* [gif stands for great \(no\) image format](anatomy/gif-stands-for-great-no-image-format.md)
+* [whats a gif?](anatomy/gif-stands-for-great-no-image-format.md)
 
