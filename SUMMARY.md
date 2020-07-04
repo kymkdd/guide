@@ -2,7 +2,7 @@
 
 * [gif stands for great image format](README.md)
 
-## intro
+## anatomy
 
-* [gif stands for great \(no\) image format](intro/gif-stands-for-great-no-image-format.md)
+* [gif stands for great \(no\) image format](anatomy/gif-stands-for-great-no-image-format.md)
 
