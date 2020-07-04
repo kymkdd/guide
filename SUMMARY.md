@@ -2,7 +2,8 @@
 
 * [gif stands for great image format](README.md)
 
-## anatomy
+## whats a gif? <a id="anatomy"></a>
 
-* [whats a gif?](anatomy/gif-stands-for-great-no-image-format.md)
+* [colors](anatomy/gif-stands-for-great-no-image-format.md)
+* [delay](anatomy/delay.md)
 
