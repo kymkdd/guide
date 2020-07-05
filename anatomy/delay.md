@@ -30,7 +30,7 @@ framerates are rounded up to the first closest decimal place
 {% endtab %}
 {% endtabs %}
 
-now you may be wondering "ellie where is 60 fps?" or "why is 1/100th italicised?" and uve just fallen into my trap
+now you may be wondering "ellie where is 60 fps?" or "why is 1/100th italicised?" and youve just fallen into my trap
 
 ![](../.gitbook/assets/image.png)
 
