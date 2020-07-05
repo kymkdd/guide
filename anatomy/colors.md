@@ -18,7 +18,7 @@ however if one desires \(mostly for file size purposes\), a gif can use a single
 {% endtabs %}
 
 {% hint style="warning" %}
-unlike the more modern 32 bit \(RGBA for example\) color depth, this bit reserved for transparency can only be fully transparent when used, this is why gifs with transparent backgrounds often have extremely jagged edges
+unlike the more modern 32 bit color depth \(RGBA for example\), the bit reserved for transparency can only be fully transparent when used, this is why gifs with transparent backgrounds often have extremely jagged edges
 {% endhint %}
 
 {% hint style="warning" %}
