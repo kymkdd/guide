@@ -36,7 +36,7 @@ now you may be wondering "ellie where is 60 fps?" or "why is 1/100th italicised?
 
 > see, as definied in the [spec](https://www.w3.org/Graphics/GIF/spec-gif89a.txt), gifs work in hundredths of a second, the smallest possible value \(integers only\) being 1 which translates to displaying the frame for 1/100th of a second, while this value is in the spec, you generally dont want to use it as many browsers and software simply do not support it and will "correct" values specified as 1 to 2 or even 10 in some cases which is a very perceptible difference in timing and will completely throw off your animation thats why you really dont want to use anything besides 2~10
 
-ok, meme aside the reason why 60 fps are not really a thing in practice is due to the fact that 100 cannot be divided by an integer to something that equates 60, in that case i would just tell people to use 2/100th which equates to 50fps and is usually plenty enough however for the purpose of this guide we are going to assume you are really stubborn and really want to make a 60fps gif
+ok, meme aside the reason why 60 fps gifs are not really a thing in practice is due to the fact that 100 cannot be divided by an integer to something that equates 60, in that case i would just tell people to use 2/100th which equates to 50fps and is usually plenty enough however for the purpose of this guide we are going to assume you are really stubborn and really want to make a 60fps gif
 
 well, bad news, thats still not doable mathematically speaking because of the aforementioned reasons but this gives me an opportunity to introduce the usage of **mixed delays**
 
