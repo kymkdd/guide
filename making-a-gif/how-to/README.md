@@ -9,7 +9,7 @@ ok now that youve made it here and didnt stop after the first line because i can
 * [ffmpeg](https://ffmpeg.org/download.html)
 * [gifski](https://github.com/ImageOptim/gifski/releases)
 * very basic knowledge on how to use a terminal
-* photoshop \(or a free equivalent, optional\)
+* photoshop to eventually edit your frames before step 2 \(or a free equivalent, optional\)
 
 {% hint style="warning" %}
 i wont really explain how to automate the gif creation, ill just explain how to do every step of the process not all of them at once
