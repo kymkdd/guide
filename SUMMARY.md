@@ -14,3 +14,7 @@
   * [step 2 : assembling](making-a-gif/how-to/step-2-assembling.md)
   * [step 3 : drink water](making-a-gif/how-to/step-3-drink-water.md)
 
+---
+
+* [sources and thanks](sources-and-thanks.md)
+
