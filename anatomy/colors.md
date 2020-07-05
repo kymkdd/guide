@@ -22,8 +22,7 @@ unlike the more modern 32 bit color depth \(RGBA for example\), the bit reserved
 {% endhint %}
 
 {% hint style="warning" %}
-this guide isnt going to cover any dithering methods due to the fact that the tool i use to make gifs uses a different approach to mapping than the "common" way to bake gifs   
-however, **ubitux** wrote a pretty comprehensive review of different dithering techniques and color mapping on [his personal blog ](http://blog.pkh.me/p/21-high-quality-gif-with-ffmpeg.html)which i recommend checking out for additional insight on the topic
+this guide isnt going to cover any dithering methods due to the fact that the tool i use to make gifs uses a different approach to mapping than the "common" way to make gifs, however, **ubitux** wrote a pretty comprehensive review of different dithering techniques and color mapping on [his personal blog ](http://blog.pkh.me/p/21-high-quality-gif-with-ffmpeg.html)which i recommend checking out for additional insight on the topic
 {% endhint %}
 
   
