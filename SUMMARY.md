@@ -5,6 +5,7 @@
 ## whats a gif? <a id="anatomy"></a>
 
 * [colors](anatomy/colors.md)
+* [disposal](anatomy/disposal.md)
 * [delay](anatomy/delay.md)
 
 ## making a gif <a id="making"></a>
