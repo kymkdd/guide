@@ -19,10 +19,14 @@ however if one desires \(mostly for file size purposes\), a gif can use a single
 {% endtabs %}
 
 {% hint style="warning" %}
+#### 1 bit transparency
+
 unlike the more modern 32 bit color depth \(RGBA for example\), the bit reserved for transparency can only be fully transparent when used, this is why gifs with transparent backgrounds often have extremely jagged edges
 {% endhint %}
 
 {% hint style="warning" %}
+#### on dithering
+
 this guide isnt going to cover any dithering methods due to the fact that the tool i use to make gifs uses a different approach to mapping than the "common" way to make gifs, however, **ubitux** wrote a pretty comprehensive review of different dithering techniques and color mapping on [his personal blog ](http://blog.pkh.me/p/21-high-quality-gif-with-ffmpeg.html)which i recommend checking out for additional insight on the topic
 {% endhint %}
 

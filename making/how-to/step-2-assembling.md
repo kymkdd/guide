@@ -22,5 +22,11 @@ once again lets go over the command
 
 `out*.png` is the input frames that you exported previously, i kept the naming scheme from the previous command but it can be changed obviously, `*` is a wildcard and will match anything after `out` in this case, gifski is pretty smart and will build the gif using frames in order based on the digits that ffmpeg appended to your output frames
 
+{% hint style="warning" %}
+#### on screens
+
+you should note that gifski will stop assembling a gif if one of the frames has a different size than the others so you want to ensure that all of your frames use identical dimensions, if you exported them using ffmpeg in the previous step this shouldnt be an issue but if you ever make a gif manually you will need to double check
+{% endhint %}
+
 
 

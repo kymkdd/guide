@@ -5,6 +5,8 @@ description: (actually it stands for graphics interchange format but i dont care
 # gif stands for great image format
 
 {% hint style="danger" %}
+#### on .gifv
+
 this guide is about **.gif** NOT **.gifv** which is a metaformat usually containing a h.264 \(.mp4\) stream or a vp9 \(.webm\) stream, they are not related to actual gifs no matter how you spin it or whatever imgur, tenor, giphy and other companies say, they are simply videos who are told to be silent and looped by the server or the browser/software
 {% endhint %}
 

@@ -71,10 +71,14 @@ the spec defines the following methods of disposal
 </table>
 
 {% hint style="info" %}
+#### legacy values
+
 `bg` and `previous` are seldom used methods nowadays, their functions were mostly for old browsers and low bandwidth back when .gifs were more common
 {% endhint %}
 
 {% hint style="info" %}
+#### reserved values
+
 values `4` through `7` are reserved values that were introduced in revision 89a of the spec \(the latest\) for future use however, gif being an abandonned format those values are simply useless and as far as i know will be treated like `none`
 {% endhint %}
 
@@ -89,6 +93,8 @@ in practice, for a gif who actually uses motion the average amount of colors tha
 ![a &quot;24-bit&quot; gif making full use of asis masks](../.gitbook/assets/24bit.gif)
 
 {% hint style="info" %}
+#### on going above 24 bits
+
 i wondered once if this concept could be taken even further to make 30-bit \(HDR\) gifs however this is mathematically impossible due to the spec limitation of 8 bit per pixel, even if every single pixel was broken down to 255 values we would still only be able to achieve "8 bit" per channel aka "24 bit"
 {% endhint %}
 

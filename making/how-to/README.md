@@ -12,6 +12,8 @@ ok now that youve made it here and didnt stop after the first line because i can
 * photoshop to eventually edit your frames before step 2 \(or a free equivalent, optional\)
 
 {% hint style="warning" %}
+#### on automation
+
 i wont really explain how to automate the gif creation, ill just explain how to do every step of the process not all of them at once
 {% endhint %}
 
