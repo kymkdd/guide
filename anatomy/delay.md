@@ -78,9 +78,3 @@ you may have likely heard about the trivia regarding spiderman into the spiderve
 because your gif goes really fast does not actually mean that it can go above 50fps, its simply that it likely has less frames than another gif and thus the transitions seem much faster to your eye but the actual amount of frames you will see over one second will be the exact same, the thing that will change is the amount of time you see the same frame over that given period
 {% endhint %}
 
-{% tabs %}
-{% tab %}
-
-{% endtab %}
-{% endtabs %}
-

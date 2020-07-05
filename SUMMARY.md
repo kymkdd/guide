@@ -7,3 +7,8 @@
 * [colors](anatomy/colors.md)
 * [delay](anatomy/delay.md)
 
+## making a gif
+
+* [how to](making-a-gif/how-to/README.md)
+  * [step 1 : getting the frames](making-a-gif/how-to/step-1-getting-the-frames.md)
+
