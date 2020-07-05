@@ -10,10 +10,75 @@ this guide is about **.gif** NOT **.gifv** which is a metaformat usually contain
 
 ### disclaimer
 
-this guide is going to talk about gifs in a rather serious manner however when it comes to the more technical parts i will not use the most exact terminology ever so i **STRONGLY** advise you do not skip the next page where i will explain the acronyms and terms i will use, some of them are "correct" but when it comes to acronyms i have a tendency to make up a lot of my own to save me having to copy paste long terms over and over
+if you arent interested at all in the explanations about the format etc \(rip my hard work\) then just [click here](anatomy/colors.md) to go directly to the process of making a gif from a video but i highly recommand you read the terminology table to not be confused
 
-if you arent interested at all in the explanations about the format etc \(rip my hard work\) then just [click here](anatomy/colors.md) to go directly to the process of making a gif from a video but dont complain about not understanding because i warned you beforehand about my crappy terminology  
-  
+### important terminology
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">term</th>
+      <th style="text-align:left">meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">color depth</td>
+      <td style="text-align:left">
+        <p>the amount of bits allocated to a specific channel/pixel</p>
+        <p>more on that in <a href="anatomy/colors.md">colors</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">channel</td>
+      <td style="text-align:left">
+        <p>color channel - red, green and blue values
+          <br />who make up an image</p>
+        <p>better explained on <a href="https://en.wikipedia.org/wiki/Channel_(digital_image)">wikipedia</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">palette / lookup table</td>
+      <td style="text-align:left">
+        <p>a table containing specific colors for the decoder to use</p>
+        <p>more on that in <a href="anatomy/colors.md">colors</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">screen</td>
+      <td style="text-align:left">
+        <p>virtual screen - the area defining the dimensions</p>
+        <p>of your gif, this area is a fixed value but frames</p>
+        <p>inside the gif can be of a different size as long</p>
+        <p>as they do not clip out of the screen</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">frame</td>
+      <td style="text-align:left">any of the images contained in a gif</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">framerate</td>
+      <td style="text-align:left">
+        <p>the speed at which frames are displayed over a set time period</p>
+        <p>more on that in <a href="anatomy/delay.md">delay</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">fps</td>
+      <td style="text-align:left">
+        <p>frame per second - amount of frames displayed over 1 second</p>
+        <p>more on that in <a href="anatomy/delay.md">delay</a>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 anyhow without further ado lets get down to business and start explaining stuff so please click the button at the bottom of this page to continue
 
 

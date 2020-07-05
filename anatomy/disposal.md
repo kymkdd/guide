@@ -59,7 +59,7 @@ the spec defines the following methods of disposal
       </td>
     </tr>
     <tr>
-      <td style="text-align:center">4-7</td>
+      <td style="text-align:center">4 - 7</td>
       <td style="text-align:center">reserved</td>
       <td style="text-align:left">
         <p>to be defined</p>
@@ -73,4 +73,24 @@ the spec defines the following methods of disposal
 {% hint style="info" %}
 `bg` and `previous` are seldom used methods nowadays, their functions were mostly for old browsers and low bandwidth back when .gifs were more common
 {% endhint %}
+
+{% hint style="info" %}
+values `4` through `7` are reserved values that were introduced in revision 89a of the spec \(the latest\) for future use however, gif being an abandonned format those values are simply useless and as far as i know will be treated like `none`
+{% endhint %}
+
+at first glance the two methods you will want to use are `none` and `asis` , while they might seem to achieve a similar result theres one major difference between the two
+
+`none` will replace the entire screen with another frame **as long as both frames are non transparent**
+
+this is a pretty important thing to take note of since you almost never want to use non transparent frames except for the very first frame of your sequence, the reason behind that is that unless you have an insanely drastic change in palette between 2 consecutive frames its MUCH more efficient to allocate all 255 colors to the pixels who changed between the two frames and use the extra bit of transparency to apply a "mask" over your previous frame allowing you to maximise the amount of colors displayed since when you use `asis` the previous frames palette wil NOT override your active frames palette essentially allowing you to go well past the 255-6 colors per frame limit and have frames with thousands of colors at once
+
+in practice, for a gif who actually uses motion the average amount of colors that is attainable using `asis` masks is between [1000 and 3000 ](https://github.com/xinntao/BasicSR/wiki/How-to-make-high-quality-gif-with-full-%28true%29-color)but for static images you can essentially reach 24 bit
+
+![a &quot;24-bit&quot; gif making full use of asis masks](../.gitbook/assets/24bit.gif)
+
+{% hint style="info" %}
+i wondered once if this concept could be taken even further to make 30-bit \(HDR\) gifs however this is mathematically impossible due to the spec limitation of 8 bit per pixel, even if every single pixel was broken down to 255 values we would still only be able to achieve "8 bit" per channel aka "24 bit"
+{% endhint %}
+
+
 
