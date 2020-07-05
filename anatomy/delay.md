@@ -71,12 +71,16 @@ which gives us a key delay \(a\) of 2 and a compensation delay \(b\) of 1 howeve
 now you may wonder if you have to do that manually for every gif with a timing that isnt in the table above and luckily for you every modern software is intelligent enough that itll do all of what i said above for you, the reason i wanted to explain it "manually" is because i often see people claiming that they have a gif @ 60 fps or higher
 
 {% hint style="warning" %}
-"fps" is a confusing term that many people get the wrong idea about  
-  
-you may have likely heard about the trivia regarding spiderman into the spiderverse and how miles is animated at "12 fps" while peter is animated at "24 fps"   
-while not factually incorrect this is pretty confusing to most people because it gives the wrong idea that the overall framerate itself is dependent on the content which is not the case
+you may have likely heard about the trivia regarding spiderman into the spiderverse and how miles is animated at "12 fps" while peter is animated at "24 fps" while not factually incorrect this is pretty confusing to most people because it gives the wrong idea that the overall framerate itself is dependent on the content which is not the case
 
-"fps" as the name indicates means that its over a **specified amount of time**   
-because your gif goes really fast does not actually mean that it can go above 50fps, its simply that it likely has less frames than another gif and thus the transitions seem much faster to your eye even tho they are using the same framerate
+"fps" as the name indicates means that its over a **specified amount of time** 
+
+because your gif goes really fast does not actually mean that it can go above 50fps, its simply that it likely has less frames than another gif and thus the transitions seem much faster to your eye but the actual amount of frames you will see over one second will be the exact same, the thing that will change is the amount of time you see the same frame over that given period
 {% endhint %}
+
+{% tabs %}
+{% tab %}
+
+{% endtab %}
+{% endtabs %}
 
