@@ -18,4 +18,5 @@
 ---
 
 * [sources and thanks](sources-and-thanks.md)
+* [consider donating](consider-donating.md)
 
